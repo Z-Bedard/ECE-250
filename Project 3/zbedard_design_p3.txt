@@ -1,0 +1,11 @@
+CLASS DESIGN
+
+The classes I implemented were all of my previous classes and a new class called DataTree. The DataTree class was created to organize all the desired timeseries to eventually create a binary tree to store all the data for specific data types. The subclasses used in the DataTree class were a class for a set and one for the nodes within the binary tree. I decided to use a set to store the names of the countries in each node as creating a set made manipulating the data within the node easier with dedicated functions. The node class contains doubles that hold the max and min values for that nodes range. This shows where each country should go in the biary tree. The nodes also hold a set object to store the country names, as well as left and right pointers to point to the next nodes in the tree. As per the documents requirements I stored the countries in an array. To do this I used my countrylist class from project 2 to hold all the data from one country and used an array of pointers to access all of them.
+
+ALTERNATIVES AND JUSTIFICATION
+
+I decided to use a set to store the data in each tree node instead of using an array of strings.The array of strings could cause memory issues when creating the array as it would be an array of dynamically allocated arrays. Using a set makes it much easier to manipulate compared to just an array. Having the set as an object makes it much easier to do repeated operations on it by simply calling a function. On top of this a set generally has O(1) time complexity for insertions and deletions compared to the O(N) time in an array. Using a set also makes the code much more readable.
+
+RUNTIME ANALYSIS
+
+Runtime for the LIMITS has a best case scenario of O(log(NUM_NODES)) because as you traverse the tree down one side you eliminate half of the potential options with each subsequent sub-tree being half as big as the previous one. The worst case runtime for LIMITS is O(NUM_NODES) because of the case where we end up with a degenerate binary tree, effectivly becoming a linkedlist. If the tree resulting in looking like a linkedlist then the lowest/highest number in the linked list would be right at the end of the list resulting in the LIMITS function traversing the whole tree in O(NUM_NODES) time.

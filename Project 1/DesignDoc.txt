@@ -1,0 +1,11 @@
+CLASS DESIGN
+
+The class I implemented was one TimeSeries class to create resizable arrays. The class creates an array with a capacities of powers of 2 (2, 4, 8, 16, 32 etc.). This is different from the size of the array which is the number of pieces of data being stored. This class also has the proper functions implemented which are: LOAD, PRINT, MEAN, ADD, UPDATE, MONOTONIC, and FIT.  
+
+ALTERNATIVES AND JUSTIFICATION
+
+I decided to create two arrays rather than create a two-dimensional array or use one array to store the data. With two arrays you've got common indices between a date and value, which makes the UPDATE function easier to implement. With a single, one-dimensional array it would result in dates being on even indexes and values being in odd indexes resulting in size and capacity not being accurate to the amount of data being stored. A two-dimensional array would also be problematic due to them being more susceptible to memory allocation issues.   
+
+RUNTIME ANALYSIS
+
+Runtime for the UPDATE command in the worst-case is O(n) because it iterates through the array which is completely dependent on the number of indices (n). The MONOTONIC fuction has a best-case runtime of O(1) because of the case where the size of the array is 1 or less. In this case it never has to iterate through the array and can immediately return an int value for it.
