@@ -7,20 +7,15 @@ The goal was to gain hands-on experience building, using, and optimizing differe
 
 Key Concepts and Data Structures
   - Linked Lists
-    - Implemented singly and doubly linked lists for dynamic data storage and traversal.
-
+    - Implemented singly linked lists for dynamic data storage.
   - Trees
     - Designed and traversed tree structures to represent hierarchical data relationships.
-
   - Graphs
     - Built and explored graph representations to model relationships between countries based on shared attributes.
-
   - Standard Library Containers
     - Applied STL structures such as vector, set, map, and unordered_map for efficient storage and retrieval.
-
   - Hash Tables
     - Created custom hash table implementations and compared them to standard library equivalents.
-
   - Search and Sort Algorithms
     - Implemented various algorithms to enable efficient querying and organization of World Bank data.
 
@@ -28,10 +23,8 @@ Key Concepts and Data Structures
 Project Themes
   - Country-Based Data Modeling
     - Each country was represented as a node or object with various attributes (e.g., GDP, population, region).
-
   - Relationship Analysis
     - Graph edges were formed based on shared features or statistical proximity between countries.
-
   - Efficient Data Access
     - Focused on choosing the appropriate data structures to optimize performance for different types of queries.
 
