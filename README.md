@@ -37,7 +37,7 @@ The goal was to gain hands-on experience in building, optimizing, and applying d
   - Graph edges were created based on shared features or statistical similarity between countries.  
 
 - **Efficient Data Access**
-  - Chose appropriate data structures to optimize performance for different types of queries.  
+  - Choose appropriate data structures to optimize performance for different types of queries.  
 
 ---
 
@@ -49,10 +49,3 @@ The goal was to gain hands-on experience in building, optimizing, and applying d
 - Working with both **low-level custom implementations** and **high-level abstractions** from the standard library  
 
 ---
-
-## 🚀 Usage
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/<your-username>/dsa-projects.git
-   cd dsa-projects
