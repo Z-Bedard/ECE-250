@@ -1,36 +1,58 @@
-Data Structures and Algorithms (DSA) Projects
+# 📊 Data Structures and Algorithms (DSA) – ECE 250
 
-Overview
+This repository contains assignments, projects, and code developed for **ECE 250: Data Structures and Algorithms** at the **University of Waterloo**.  
+The coursework focused on **processing and analyzing World Bank data** using both **custom implementations** and **standard library containers**.  
+The goal was to gain hands-on experience in building, optimizing, and applying data structures to manage and explore large datasets efficiently.  
 
-This repository contains assignments, projects, and code developed for ECE 250 at the University of Waterloo. This is our Data Structures and Algorithms (DSA) course from the ECE department. The coursework was centered around processing and analyzing data from the World Bank using fundamental and advanced data structures.
-The goal was to gain hands-on experience building, using, and optimizing different data structures to efficiently manage and explore large datasets. Both custom implementations and standard library containers were used throughout the course.
+---
 
-Key Concepts and Data Structures
-  - Linked Lists
-    - Implemented singly linked lists for dynamic data storage.
-  - Trees
-    - Designed and traversed tree structures to represent hierarchical data relationships.
-  - Graphs
-    - Built and explored graph representations to model relationships between countries based on shared attributes.
-  - Standard Library Containers
-    - Applied STL structures such as vector, set, map, and unordered_map for efficient storage and retrieval.
-  - Hash Tables
-    - Created custom hash table implementations and compared them to standard library equivalents.
-  - Search and Sort Algorithms
-    - Implemented various algorithms to enable efficient querying and organization of World Bank data.
+## 📚 Concepts & Data Structures
 
+- **Linked Lists**
+  - Implemented singly linked lists for dynamic data storage.  
 
-Project Themes
-  - Country-Based Data Modeling
-    - Each country was represented as a node or object with various attributes (e.g., GDP, population, region).
-  - Relationship Analysis
-    - Graph edges were formed based on shared features or statistical proximity between countries.
-  - Efficient Data Access
-    - Focused on choosing the appropriate data structures to optimize performance for different types of queries.
+- **Trees**
+  - Designed and traversed hierarchical tree structures to represent data relationships.  
 
+- **Graphs**
+  - Built graph representations to model relationships between countries based on shared attributes.  
 
-Skills Developed
-  - Understanding of time and space complexity trade-offs
-  - Building reusable, modular code with a focus on clarity and efficiency
-  - Applying real-world datasets to theoretical concepts
-  - Working with both low-level custom data structures and high-level abstractions from the standard library
+- **Hash Tables**
+  - Created custom hash table implementations and compared them against STL equivalents.  
+
+- **Search & Sort Algorithms**
+  - Implemented various algorithms to enable efficient querying and organization of large datasets.  
+
+- **Standard Library Containers**
+  - Applied STL structures such as `vector`, `set`, `map`, and `unordered_map` for efficient storage and retrieval.  
+
+---
+
+## 🌍 Project Themes
+
+- **Country-Based Data Modeling**
+  - Each country was represented as a node or object with attributes such as GDP, population, and region.  
+
+- **Relationship Analysis**
+  - Graph edges were created based on shared features or statistical similarity between countries.  
+
+- **Efficient Data Access**
+  - Chose appropriate data structures to optimize performance for different types of queries.  
+
+---
+
+## 🛠️ Skills Developed
+
+- Analyzing **time and space complexity trade-offs**  
+- Building **reusable, modular code** with an emphasis on clarity and efficiency  
+- Applying **real-world datasets** to theoretical concepts  
+- Working with both **low-level custom implementations** and **high-level abstractions** from the standard library  
+
+---
+
+## 🚀 Usage
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/<your-username>/dsa-projects.git
+   cd dsa-projects
